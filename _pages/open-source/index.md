@@ -1,7 +1,7 @@
 ---
 layout: page
-title:  "Portfolio"
-permalink: "/portfolio/"
+title:  "Open Source"
+permalink: "/open-source/"
 ---
 
 <figure>

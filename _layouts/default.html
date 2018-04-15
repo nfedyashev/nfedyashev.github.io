@@ -7,7 +7,9 @@
             {% include sidebar.html %}
 
             <main class="the-content" role="main">
-                {% include search.html %}
+                {% if site.show_search == 1 %}
+                  {% include search.html %}
+                {% endif %}
                 {{ content }}
             </main>
         </div>

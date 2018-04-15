@@ -1,25 +1,25 @@
 # General Settings
-name: Steve Austin
-job_title: UI/UX Engineer
-email: youremail@gmail.com
-description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
-avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
+name: Nikita Fedyashev
+job_title: Full Stack Developer
+email: nfedyashev@gmail.com
+description: "#ruby #javascript #react #devops"
+avatar: https://avatars0.githubusercontent.com/u/61983?s=400&v=4
 favicon: /favicon.ico
-twitter_handler: your_handler
-analytics_code: UA-XXXXXXX-2
-disqus: your_disqus_site
+twitter_handler: nfedyashev
+analytics_code: UA-33744872-1
+disqus: sovereign-zone
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: 'http://facebook.com' }
--  { name: twitter, url: 'http://twitter.com' }
+-  { name: facebook, url: '' }
+-  { name: twitter, url: 'https://twitter.com/nfedyashev' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
--  { name: linkedin, url: '' }
+-  { name: linkedin, url: 'https://www.linkedin.com/in/nfedyashev' }
 -  { name: skype, url: '' }
--  { name: github, url: '' }
+-  { name: github, url: 'https://github.com/nfedyashev' }
 -  { name: codepen, url: '' }
--  { name: stack-overflow, url: '' }
+-  { name: stack-overflow, url: 'https://stackoverflow.com/users/74089/ep3static' }
 -  { name: dribbble, url: '' }
 -  { name: behance, url: '' }
 -  { name: pinterest, url: '' }
@@ -43,7 +43,8 @@ show_tags: 1
 show_email: 1
 show_rss: 1
 show_comments: 1
-show_menu: 1
+show_menu: 0
+show_search: 0
 fixed_sidebar: 1
 
 # Defaults
@@ -56,7 +57,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: ""
+url: "http://sovereign.zone"
 baseurl: ""
 
 # Includes
@@ -78,3 +79,9 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/partials
   style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .idea
