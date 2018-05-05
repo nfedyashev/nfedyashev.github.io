@@ -23,3 +23,23 @@ aggregate_failures "testing response" do
   #expect(response.headers).to include("Content-Type" => "application/json")
   #expect(response.body).to eq('{"message":"Success"}')
 end
+
+
+Rarely used #with_options which could come really handy for DRYing your
+  with_options allow_nil: false, allow_blank: false do |assoc|
+    validates :claim_type, inclusion: CLAIM_TYPES
+    validates :month, inclusion: MONTH_NAMES
+    validates :year, inclusion: YEARS
+  end
+
+
+
+rails attributes api type casting
+
+
+why
+example do
+end
+is better than
+
+it "just works"
