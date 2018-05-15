@@ -62,6 +62,17 @@ These are just a few of the *available* **configuration** options. Many configur
 #### Default Code Block
 
     This is code blog.
+    
+    
+I assume you have already downloaded and installed Ruby. Here's what you need to do next:
+
+1. Run <code>gem install jekyll bundler</code>.
+2. Copy the theme in your desired folder.
+3. Enter into the folder by executing <code>cd name-of-the-folder</code>.
+4. Run <code>bundle install</code>.
+5. If you want to access and customize the theme, use <code>bundle exec jekyll serve</code>. This way it will be accessible on <code>http://localhost:4000</code>.
+6. Upload the content of the compiled <code>_site</code> folder on your host server.
+    
 
 #### Styled Code Block
 	
@@ -116,3 +127,9 @@ Throughout this guide there are a number of small-but-handy pieces of informatio
 If you come across anything along the way that we haven’t covered, or if you know of a tip you think others would find handy, please file an issue and we’ll see about including it in this guide.
 
 The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines.
+
+<!--more-->
+
+![Alt Text](https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=d1b9ba0f56bbb8a965d26e8c4177f4af)
+
+*Source: [http://jekyllbootstrap.com/lessons/jekyll-introduction.html](http://jekyllbootstrap.com/lessons/jekyll-introduction.html){:target="_blank"}*
