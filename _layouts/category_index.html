@@ -4,7 +4,7 @@ layout: default
 
 <h1>Posts From {{page.title}}</h1>
 
-{% for post in site.categories[page.category] %}
+{% for post in site.categories[page.category] reversed %}
 <article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
         <ul class="clear">
