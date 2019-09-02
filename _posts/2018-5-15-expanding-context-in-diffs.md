@@ -10,9 +10,9 @@ tags:
 - diff
 ---
 
-Whether it’s reviewing open source project, or using git on a private project, we all spend a lot of time looking at diffs. Although some prefer graphical interface clients I use plain command line.
+Whether it’s reviewing open source project, or using git on a private project, we all spend a lot of time looking at diffs. Although some prefer graphical interface clients I use the plain command line.
 
-But to really understand a code change, we sometimes need to see more than just the default three lines of context especially in cases when long method names.
+But to understand a code change, we sometimes need to see more than just the default three lines of context especially in cases when long method names.
 
 That's when this git option come in handy:
 
