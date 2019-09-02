@@ -35,19 +35,17 @@ psql foo_development -c  '\x' -c '\d+ books'
 	<img width="250" src="{{ site.url }}/assets/describe.png" />
 </a>
 
-This command could be easily found in your bash/zsh history using reverse search or you can just extract it into a shell function like so:
+This command could be easily found in your bash/zsh history using reverse search or you can extract it into a shell function like so:
 
 {% highlight ruby linenos %}
 function describe_table() {
   psql eth_farm_development -c  "\x" -c "\d+ $1"
 }
 {% endhighlight %}
-And call like: `describe_table books`
+And call it like: `describe_table books`
 
-Trying to recall how many time I need to look up model schema and it looks like just a fraction of time spent on all other activities. So for me it's 
+Trying to recall how many time I need to look up a model schema and it looks like just a fraction of time spent on all other activities. So for me it's 
 
-Desire to look up table schema is such a rare occasion in comparison with all the other tasks that you need to perform that it doesn't make sense to pay such a "high price" for low benefit if there is a simple workaroudn.
-
-Just compare how often do you need to see model's schema in comparison with all the other tasks that you constantly do in you .
+Desire to look up table schema is such a rare occasion in comparison with all the other tasks that you need to perform that it doesn't make sense to pay such a "high price" for the low benefit if there is a simple workaround.
 
 One of the main reasons I find this approach more desirable is because seeing this kind of info is such a rare activity in comparison with all other tasks that you need to do.
