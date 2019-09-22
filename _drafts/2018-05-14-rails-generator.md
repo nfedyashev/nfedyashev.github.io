@@ -68,8 +68,7 @@ Usage: rails g bigco_model FooBar
 
 
 standalone factory sequence
-    email = FactoryBot::Sequence.new(:email, 1) { |n| "invoice-user#{n}@claimable.com" }
-
+    email = FactoryBot::Sequence.new(:email, 1) { |n| "invoice-user#{n}@bigco.com" }
 
     http://sunitparekh.github.io/data-anonymization/
     idea blog pose
