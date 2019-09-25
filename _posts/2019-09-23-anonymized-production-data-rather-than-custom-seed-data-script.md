@@ -41,6 +41,7 @@ Since this is a rather uncommon and opinionated approach, and they always come i
   * You don't need to spend time maintaining seed data and keeping them up to date. Just re-run the dump->anonymize task and you're good to go.
   * Since all developers know have that fresh/recent anonymized dump which they can safely use locally for debugging production issues. Depending on your team/project structure this side effect might be very helpful because all the developers can safely debug and investigate production issues locally without risking affecting real production users and *without need to have access to that info*. In most cases for debugging & investigation developers only need to know some IDs or request params which can be seen in Airbrake/Rollbar/Bugsnag/Sentry.
   * New developers onboarding become much easier. They can safely try locally any user, click any feature without risking of having any unintended side effects.
+  * By using anonymized seed data for staging/pre-production environment you save even more time because you don't need to maintain it separately.
 
 As you may notice anonymizer task is pretty simple because you can reuse your factories.
 
