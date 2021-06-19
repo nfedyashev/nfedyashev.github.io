@@ -10,11 +10,11 @@ tags:
 - schemaspy
 ---
 
-org-babel self-contained snippet that downloads schemaspy and postgresql client to generate [http://schemaspy.org/][SchemaSpy database documentation]
+org-babel self-contained snippet that downloads schemaspy and postgresql client to generate [SchemaSpy database documentation](http://schemaspy.org/)
 
 # Version reference sources:
-[[https://jdbc.postgresql.org/download.html][jdbc.postgresql]]
-[[https://github.com/schemaspy/schemaspy/releases][schemaspy/releases]]
+[jdbc.postgresql](https://jdbc.postgresql.org/download.html)
+[schemaspy/releases](https://github.com/schemaspy/schemaspy/releases)
 
 ```
 #+HEADER: :var db="dbname"
